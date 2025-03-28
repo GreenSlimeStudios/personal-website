@@ -11,3 +11,13 @@ body{
   /* color:white; */
   
 }
+
+.high-blue{
+  @apply text-blue-400;
+}
+.high-indigo{
+  @apply text-indigo-400;
+}
+.fancy-blue{
+  @apply bg-gradient-to-tr from-blue-100 via-blue-300 to-blue-500 text-transparent bg-clip-text;
+}

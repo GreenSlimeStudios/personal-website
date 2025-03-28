@@ -1,16 +1,18 @@
 import { useState } from 'react'
 import './App.css'
+import MainContent from './components/MainContent'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <h1>wimp womp</h1>
-      <div className=''>
-        <h1 className='text-center font-extrabold text-4xl'>Max Berliński</h1>
-        <Card title={"womp womp"} />
+      <div className='mt-10'>
+        <h1 className='text-center font-bold text-5xl'>Max Berliński</h1>
+        {/* <Card title={"womp womp"} /> */}
       </div>
+      <MainContent/>
+
     </>
   )
 }
