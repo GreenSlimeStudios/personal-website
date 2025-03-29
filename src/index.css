@@ -3,7 +3,7 @@
 body{
   margin:0;
   padding:0;
-  background-color: #111115;
+  background-color: #031926;
   color:#f1f1f1;
   box-sizing: border-box;
   /* display: inline-block; */
@@ -20,4 +20,17 @@ body{
 }
 .fancy-blue{
   @apply bg-gradient-to-tr from-blue-100 via-blue-300 to-blue-500 text-transparent bg-clip-text;
+}
+
+.titlebox{
+  background-image: url("cat1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* height: 10000px; */
+  /* padding: 200px; */
+}
+
+.project-card{
+  @apply text-2xl space-y-5 rounded-4xl mx-5 h-120 shadow-2xl shadow-black hover:translate-y-[-1rem] transition duration-300 ease-in-out;
 }

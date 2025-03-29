@@ -7,11 +7,21 @@ function App() {
 
   return (
     <>
-      <div className='mt-10'>
-        <h1 className='text-center font-bold text-5xl'>Max Berliński</h1>
-        {/* <Card title={"womp womp"} /> */}
+      <div className='titlebox p-20 sm:p-40 lg:p-60 2xl:p-100 shadow-2xl shadow-black'>
+        {/* <img src='cat1.jpg' /> */}
+        <div className='flex-row items-start'>
+          <h1 className='font-bold text-5xl lg:text-6xl 2xl:text-7xl drop-shadow-lg'>Max Berliński</h1>
+          <p className='text-lg drop-shadow-lg'>Passion is what matters</p>
+        </div>
       </div>
-      <MainContent/>
+      <div className='mt-10'>
+        <div className='grid grid-cols-2'>
+          {/* <Card title={"Karpportal"} />
+          <Card title={"Encrypter Deluxe"} /> */}
+        </div>
+      </div>
+      <div className='mb-50' />
+      <MainContent />
 
     </>
   )
@@ -20,10 +30,9 @@ function App() {
 export default App
 
 
-const Card = ({ title }) => {
+const Card = ({ title, description }) => {
   return (
-  <div className='bg-cyan-700 p-5 m-5'>
-    <h1 className='text-red-500'>{title}</h1>
-    <h1>{title}</h1>
-  </div>)
+    <div className='bg-cyan-700 p-5 m-5 rounded-2xl'>
+      <h1 className='text-2xl font-bold'>{title}</h1>
+    </div>)
 }
