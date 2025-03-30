@@ -50,9 +50,9 @@ const MainContent = () => {
 
                         <div className="grid grid-cols-2 lg:grid-cols-3">
 
-                            <img className=" h-120 object-cover object-bottom  rounded-l-4xl " src={"https://user-images.githubusercontent.com/86601983/179499279-c510e9d8-bd86-4630-abf2-b1202bb547ea.png"} />
-                            <img className=" hidden lg:block h-120 object-cover object-bottom  " src={"https://user-images.githubusercontent.com/86601983/179499317-23cf671e-3be6-413f-8c04-9132ec08f366.png"} />
-                            <img className=" h-120 object-cover object-bottom  rounded-r-4xl " src={"https://user-images.githubusercontent.com/86601983/179499154-27552f06-5aa7-49c5-8a59-81932c4dde56.png"} />
+                            <img className=" h-120 object-cover object-left  rounded-l-4xl " src={"https://user-images.githubusercontent.com/86601983/179499279-c510e9d8-bd86-4630-abf2-b1202bb547ea.png"} />
+                            <img className=" hidden lg:block h-120 object-cover object-bottom shadow-2xl shadow-black " src={"https://user-images.githubusercontent.com/86601983/179499317-23cf671e-3be6-413f-8c04-9132ec08f366.png"} />
+                            <img className=" h-120 object-cover object-right  rounded-r-4xl " src={"https://user-images.githubusercontent.com/86601983/179499154-27552f06-5aa7-49c5-8a59-81932c4dde56.png"} />
                         </div>
 
                     </div>
@@ -256,7 +256,32 @@ const MainContent = () => {
                         </div>
 
 
-                        <img src="army1.png" className=" h-120 object-cover  rounded-4xl " />
+                        <img src="fox.png" className=" h-120 object-cover  rounded-4xl " />
+                    </div>
+                </div>
+
+            </section>
+             <section data-bgcolor="#fc9c58" data-textcolor="#111111" >
+
+                <div className="mb-8 pl-5 sm:flex hidden 2xl:hidden gap-x-5 items-end">
+                    <h1 className="text-5xl font-bold drop-shadow-2xl">Evo-<span className="text-cyan-500">r</span></h1>
+                    <p className="text-center text-[20px] text-cyan-500 font-bold">RUST</p>
+                </div>
+
+                <div className="bg-[#143a48] project-card">
+                    <div className="project-grid">
+                        {/* <div className="flex items-center"> */}
+                        <div className="flex items-center h-120">
+                            <div className="w-full  pl-5 flex-row text-center space-y-2">
+                                <h1 className="text-5xl font-bold drop-shadow-2xl">Evo-<span className="text-cyan-500">r</span></h1>
+                                <p className="text-center text-[20px] text-cyan-400 font-bold">RUST</p>
+                                <p className="text-2xl p-8 text-center">
+                                    <span className="high-teal">Evo-r</span> is a creature creator written in Bevy, where you put joints with restrictions together creating a creature that then learns how to walk and run. 
+                                </p></div>
+                        </div>
+
+
+                        <img src="evor.png" className=" h-120 object-cover  rounded-4xl " />
                     </div>
                 </div>
 
