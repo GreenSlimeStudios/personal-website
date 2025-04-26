@@ -21,7 +21,7 @@ const MainContent = () => {
     return (
         <div>
 
-            <div className='rounded-b-4xl titlebox p-20 sm:p-40 lg:p-60 2xl:p-100 shadow-2xl shadow-black'>
+            <div className='titlebox p-20 sm:p-40 lg:p-60 2xl:p-100 shadow-2xl shadow-black'>
                 {/* <img src='cat1.jpg' /> */}
                 <div className='flex-row items-start'>
                     <h1 className='font-bold text-5xl lg:text-6xl 2xl:text-7xl drop-shadow-lg'>Max Berliński</h1>
