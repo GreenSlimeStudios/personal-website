@@ -2,6 +2,8 @@ import React from "react";
 import { motion } from "framer-motion"
 import transition from "../transition";
 import { Link } from "react-router-dom";
+import { IoArrowBack } from "react-icons/io5";
+import { CiMail } from "react-icons/ci";
 
 const Karpportal = () => {
     return (<div>
@@ -9,22 +11,30 @@ const Karpportal = () => {
             // initial={{ opacity: 0 }}
             // animate={{ opacity: 1 }}
             // exit={{ opacity: 0 }}
-            className="bg-[#fc9c58] h-[150px]  p-10">
+            className="bg-[#fc9c58] h-[152px]  p-10">
             {/* <h1 className="text-8xl font-bold text-center p-10">Karpportal</h1> */}
-            <div className="flex items-center  gap-20 ">
+            <div className="flex items-center  gap-15 ">
                 {/* <p>le fish au chocolate</p> */}
-                <p className="font-bold">karpportal</p>
-                <p className="font-bold">karpportal</p>
 
+                <Link to={"/personal-website/"} className=" bg-white p-4 rounded-t-2xl flex items-center gap-4"><p className="text-2xl font-bold text-black">Back</p>
+                    <IoArrowBack className="text-black h-10" size={30} />
+                </Link>
+                <a href="https://github.com/greenslimestudios/karpportal" target="_blank" className="p-4 bg-white rounded-t-2xl flex items-center gap-4">
+                    <p className="text-2xl font-bold text-black">github</p>
+                    <img src="githublogo.png" className="h-10"></img>
+                </a>
 
                 <div className="flex space-x-5 p-4 bg-white  items-center rounded-3xl text-gray-900 ">
                     <h1 className="text-5xl font-bold ">Karp<span className="bg-amber-500 text-transparent bg-clip-text">p</span>ortal</h1>
                     <img src="kpplogo.png" className=" h-30 object-cover object-bottom " />
                 </div>
                 {/* <p className="font-bold">karpportal</p> */}
-                <Link to={"/personal-website/"}><p className="text-2xl font-bold">Back</p></Link>
-                <a href="https://github.com/greenslimestudios/karpportal" target="_blank"><p className="text-2xl font-bold">github</p></a>
-
+                {/* <p className="font-bold">karpportal</p>
+                <p className="font-bold">karpportal</p> */}
+                <button onClick={()=>{alert("maxdev.gdynia@gmail.com")}} className="p-4 bg-white rounded-t-2xl flex items-center gap-4">
+                    <p className="text-2xl font-bold text-black">Contact</p>
+                    <CiMail size={30} className="h-10 text-black"/>
+                </button>
             </div>
             <div className="py-10 text-2xl font-bold relative">
                 <p>Karpportal is a social-media platform I developed in Flutter / dart with firebase for the backend. The project aims to provide an app where people can post about their favourite stuff and communicate with each other. Some notable features of the app are, end to end encryption, group chats and highly customizable themes.</p>
@@ -45,7 +55,7 @@ const Karpportal = () => {
 
             </div> */}
             <motion.div className="relative p-0 m-0 h-[350px]"
-                        // exit={ opacity: 0, transition: { duration: 0.5, delay: 0.5 } }
+            // exit={ opacity: 0, transition: { duration: 0.5, delay: 0.5 } }
             >
 
                 {/* <div className="flex justify-around gap-2 karp-images items-end">
@@ -84,7 +94,7 @@ const Karpportal = () => {
                     <div className="container"><img className="big-image" src="https://user-images.githubusercontent.com/86601983/179499909-56f6e020-db57-4f77-bb82-e03b33e7ad69.png" /></div>
                     <div className="container"><img className="big-image" src="https://user-images.githubusercontent.com/86601983/179500207-a0eacfce-9822-4e4b-a12f-29b86f9032a8.png" /></div>
                 </div>
-   <div className="grid grid-cols-10 gap-2 k-img">
+                <div className="grid grid-cols-10 gap-2 k-img">
                     <div className="container"><img className="big-image" src="https://user-images.githubusercontent.com/86601983/179498862-32548f7d-2fb7-4f8e-ab4c-24cfa61652fc.png" /></div>
                     <div className="container"><img className="big-image" src="https://user-images.githubusercontent.com/86601983/179498885-d3e27ddf-2e3c-4bed-a516-affefc215f3a.png" /></div>
                     <div className="container"><img className="big-image" src="https://user-images.githubusercontent.com/86601983/179498898-18e5b57b-45af-4fc1-b5ac-b32455544758.png" /></div>
@@ -96,7 +106,7 @@ const Karpportal = () => {
                     <div className="container"><img className="big-image" src="https://user-images.githubusercontent.com/86601983/179499799-3155a6cd-337b-4685-83f0-f7188616b3e0.png" /></div>
                     <div className="container"><img className="big-image" src="https://user-images.githubusercontent.com/86601983/179500115-b5919657-f178-4042-adfa-8742c6a6ecf3.png" /></div>
                 </div>
- <div className="grid grid-cols-10 gap-2 k-img">
+                <div className="grid grid-cols-10 gap-2 k-img">
                     <div className="container"><img className="big-image" src="https://user-images.githubusercontent.com/86601983/179499540-1334faeb-37ac-4f23-9c75-b35d36753f44.png" /></div>
                     <div className="container"><img className="big-image" src="https://user-images.githubusercontent.com/86601983/179499554-75e75bb4-326d-424d-b64e-d92459f8afbf.png" /></div>
                     <div className="container"><img className="big-image" src="https://user-images.githubusercontent.com/86601983/179499562-55a6b165-d99e-4fc8-a05a-be3e531cc6d6.png" /></div>
