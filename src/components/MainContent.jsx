@@ -125,7 +125,7 @@ const MainContent = () => {
                         onHoverStart={() => handleHoverStart(1)}
                         onHoverEnd={() => handleHoverEnd(1)}
                     >
-                        <Link to={"/personal-website/karpportal"}>
+                        <Link to={"/personal-website/encrypter-deluxe"}>
                             <div className="bg-[#1b304e] project-card">
 
                                 <div className="project-grid">

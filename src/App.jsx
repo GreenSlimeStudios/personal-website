@@ -4,6 +4,7 @@ import MainContent from './components/MainContent'
 import { Routes, Route, useLocation } from 'react-router-dom'
 import { AnimatePresence } from 'framer-motion'
 import Karpportal from './components/Karpportal'
+import EncrypterPage from './components/Encrypter'
 import NotFoundPage from './components/NotFound'
 
 
@@ -44,6 +45,7 @@ const App = () => {
       <Routes location={location} key={location.pathname}>
         <Route path="/personal-website/" element={<MainContent />} />
         <Route path="/personal-website/karpportal" element={<Karpportal />} />
+        <Route path="/personal-website/encrypter-deluxe" element={<EncrypterPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </AnimatePresence>

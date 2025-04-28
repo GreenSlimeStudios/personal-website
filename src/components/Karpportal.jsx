@@ -36,7 +36,7 @@ const Karpportal = () => {
                     <CiMail size={30} className="h-10 text-black"/>
                 </button>
             </div>
-            <div className="py-10 text-2xl font-bold relative">
+            <div className="py-10 text-2xl font-bold relative paracontent">
                 <p>Karpportal is a social-media platform I developed in Flutter / dart with firebase for the backend. The project aims to provide an app where people can post about their favourite stuff and communicate with each other. Some notable features of the app are, end to end encryption, group chats and highly customizable themes.</p>
                 <p>Creating this app gave me some valueable experiance with making big projects and structuring them accordingly. </p>
             </div>

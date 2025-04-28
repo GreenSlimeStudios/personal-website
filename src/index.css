@@ -162,3 +162,7 @@ body{
   z-index: 10; /* bring to top */
  @apply ring-2 ring-white; 
 }
+
+.paracontent p{
+  margin-bottom: 10px;
+}
