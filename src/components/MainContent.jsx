@@ -412,6 +412,76 @@ const MainContent = () => {
                             </div></Link></motion.div>
 
                 </section>
+                <section data-bgcolor="#fc9c58" data-textcolor="#111111" >
+
+                    <div className="mb-8 pl-5 sm:flex hidden 2xl:hidden gap-x-5 items-end">
+                        <h1 className="text-5xl font-bold drop-shadow-2xl">Project <span className="text-red-500">Watt</span>stappen</h1>
+                        <p className="text-center text-[20px] text-red-500 font-bold">C++</p>
+                    </div>
+
+                    <motion.div
+                        key={3}
+                        exit={hoverStates[3] ? { opacity: 0, transition: { duration: 0.5, delay: 0.5 } } : {}}
+                        animate={{ opacity: 1 }}
+                        transition={{ duration: 1 }}
+                        onHoverStart={() => handleHoverStart(3)}
+                        onHoverEnd={() => handleHoverEnd(3)}
+                    >
+                        <Link to={"/personal-website/"}>
+                            <div className="bg-[#111111] project-card">
+                                <div className="project-grid">
+                                    {/* <div className="flex items-center"> */}
+                                    <div className="flex items-center h-120">
+                                        <div className="w-full  pl-5 flex-row text-center space-y-2">
+                                            <h1 className="text-5xl font-bold ">Project <span className="text-red-500">Watt</span>stappen</h1>
+                                            <p className="text-center text-[20px] text-red-400 font-bold">C++</p>
+                                            <p className="text-2xl p-8 text-center">
+                                                <span className="high-red">Wattstappen</span> is a remote car made by our team in the 2025 RCDC - Remote Car Design Competition organised by BEST Gdańsk. Our team placed 3rd.
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <img src="wattstappenstand.jpeg" className=" h-120 object-cover object-bottom  rounded-4xl w-full" />
+                                </div>
+                            </div></Link></motion.div>
+
+                </section>
+
+                <section data-bgcolor="#fc9c58" data-textcolor="#111111" >
+
+                    <div className="mb-8 pl-5 sm:flex hidden 2xl:hidden gap-x-5 items-end">
+                        <h1 className="text-5xl font-bold drop-shadow-2xl">Hexapod <span className="text-red-500"></span></h1>
+                        <p className="text-center text-[20px] text-red-500 font-bold">C++</p>
+                    </div>
+
+                    <motion.div
+                        key={3}
+                        exit={hoverStates[3] ? { opacity: 0, transition: { duration: 0.5, delay: 0.5 } } : {}}
+                        animate={{ opacity: 1 }}
+                        transition={{ duration: 1 }}
+                        onHoverStart={() => handleHoverStart(3)}
+                        onHoverEnd={() => handleHoverEnd(3)}
+                    >
+                        <Link to={"/personal-website/"}>
+                            <div className="bg-[#162d38] project-card">
+                                <div className="project-grid">
+                                    {/* <div className="flex items-center"> */}
+                                    <div className="flex items-center h-120">
+                                        <div className="w-full  pl-5 flex-row text-center space-y-2">
+                                            <h1 className="text-5xl font-bold ">Hexapod <span className="text-red-500"></span></h1>
+                                            <p className="text-center text-[20px] text-red-400 font-bold">C++</p>
+                                            <p className="text-2xl p-8 text-center">
+                                                <span className="high-red"></span> Im working on a hexapod :3, It is my original design and I'm printing it from my 3D printer. Not ready yet tho.
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <img src="hexa1.png" className=" h-120 object-cover object-bottom  rounded-4xl w-full" />
+                                </div>
+                            </div></Link></motion.div>
+
+                </section>
+
             </main >
         </div >
     );

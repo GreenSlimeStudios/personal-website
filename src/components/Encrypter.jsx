@@ -72,11 +72,12 @@ const EncrypterPage = () => {
                 
                 <div className="grid grid-cols-7 gap-2 k-img">
                     <div/>
-                    <div className="container"><img className="big-image" src="https://cdn.discordapp.com/attachments/1079383472952586310/1366465732556099594/Screenshot_20250428_192358.jpg?ex=68110be2&is=680fba62&hm=b5df2dc6e963e3844c5154ebabc1e09b7e5dd4ba4ef72319c44a7e64409a86fb&" /></div>
-                    <div className="container"><img className="big-image" src="https://cdn.discordapp.com/attachments/1079383472952586310/1366465732879187968/Screenshot_20250428_192419.jpg?ex=68110be2&is=680fba62&hm=f5faa2e77ec73280cbde63abced5481a5ec14a8e824f9e2ca564978a7c61d7d4&" /></div>
-                    <div className="container"><img className="big-image" src="https://cdn.discordapp.com/attachments/1079383472952586310/1366465733206474802/Screenshot_20250428_192426.jpg?ex=68110be2&is=680fba62&hm=e35ab9d578536eb86de017c10e8041e720f1a43b9bf361126562c54440f2f883&" /></div>
-                    <div className="container"><img className="big-image" src="https://cdn.discordapp.com/attachments/1079383472952586310/1366465733483303023/Screenshot_20250428_192516.jpg?ex=68110be2&is=680fba62&hm=7760e3eabd999e0fe6d5e57804b494d2bfe6f564189b411510ca390df5e2ad81&" /></div>
-                    <div className="container"><img className="big-image" src="https://cdn.discordapp.com/attachments/1079383472952586310/1366465734116376710/Screenshot_20250428_192552.jpg?ex=68110be2&is=680fba62&hm=8d0f09290331364662c1a9d334e593e70b34f3a50a3747e6a42b1c7d11b4c6c8&" /></div>
+                    <div className="container"><img className="big-image" src="enc1.jpg" /></div>
+                    <div className="container"><img className="big-image" src="enc2.jpg" /></div>
+                    <div className="container"><img className="big-image" src="enc3.jpg" /></div>
+                    <div className="container"><img className="big-image" src="enc5.jpg" /></div>
+                    <div className="container"><img className="big-image" src="encold1.jpg" /></div>
+                    {/* <div className="container"><img className="big-image" src="encterm1.png" /></div> */}
                 </div>
     
             </motion.div>
