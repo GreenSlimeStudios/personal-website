@@ -21,7 +21,7 @@ const MainContent = () => {
     return (
         <div>
 
-            <div className='titlebox p-20 sm:p-40 lg:p-60 2xl:p-100 shadow-2xl shadow-black'>
+            <div className='titlebox p-20 sm:p-40 lg:p-60 2xl:p-100  shadow-black '>
                 {/* <img src='cat1.jpg' /> */}
                 <div className='flex-row items-start'>
                     <h1 className='font-bold text-5xl lg:text-6xl 2xl:text-7xl drop-shadow-lg'>Max Berliński</h1>
@@ -29,10 +29,15 @@ const MainContent = () => {
                 </div>
             </div>
             {/* <div className='mb-50' /> */}
-            <div className="w-full my-30 mx-10">
+
+            <section className="lg:mx-40">
+
+
+            <div className="w-full my-20 mx-10">
                 <h1 className="text-left font-bold text-6xl">My Projects</h1>
             </div>
-
+            
+                                                    {/* <div class="box"></div> */}
 
 
             <main className="sm:px-5 mt-5 mb-100 flex-row space-y-10 2xl:grid-cols-2 grid">
@@ -52,8 +57,10 @@ const MainContent = () => {
                         onHoverStart={() => handleHoverStart(0)}
                         onHoverEnd={() => handleHoverEnd(0)}
                     >
+                        
                         <Link to={"/personal-website/karpportal"}>
-                            <div className="bg-[#fc9c58] project-card text-black">
+                            <div className="bg-[#fc9c58] bg-gradient-to-br from-[#fc9c58]  project-card text-black ">
+                                
 
                                 <div className="project-grid">
                                     {/* <div className="flex items-center"> */}
@@ -87,7 +94,7 @@ const MainContent = () => {
                                     <div className="grid grid-cols-2 lg:grid-cols-3">
 
                                         <img className=" h-120 object-cover object-left  rounded-l-4xl " src={"https://user-images.githubusercontent.com/86601983/179499279-c510e9d8-bd86-4630-abf2-b1202bb547ea.png"} />
-                                        <img className=" hidden lg:block h-120 object-cover object-bottom shadow-2xl shadow-black " src={"https://user-images.githubusercontent.com/86601983/179499317-23cf671e-3be6-413f-8c04-9132ec08f366.png"} />
+                                        <img className=" hidden lg:block h-120 object-cover object-bottom shadow-2xl  " src={"https://user-images.githubusercontent.com/86601983/179499317-23cf671e-3be6-413f-8c04-9132ec08f366.png"} />
                                         <img className=" h-120 object-cover object-right  rounded-r-4xl " src={"https://user-images.githubusercontent.com/86601983/179499154-27552f06-5aa7-49c5-8a59-81932c4dde56.png"} />
                                     </div>
 
@@ -295,7 +302,7 @@ const MainContent = () => {
                         onHoverEnd={() => handleHoverEnd(5)}
                     >
                         <Link to={"/personal-website/"}>
-                            <div className="bg-[#3d5924] project-card">
+                            <div className=" from-[#3d5924] to-orange-500 bg-[#3d5924] project-card  ">
                                 <div className="project-grid">
                                     {/* <div className="flex items-center"> */}
                                     <div className="flex items-center h-120">
@@ -483,6 +490,8 @@ const MainContent = () => {
                 </section>
 
             </main >
+            </section>
+            
         </div >
     );
 
