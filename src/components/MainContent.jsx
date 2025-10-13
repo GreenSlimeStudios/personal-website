@@ -48,10 +48,10 @@ const MainContent = () => {
             <section className="mx-0">
 
             <div className="mt-20 px-10 flex items-center  center w-full gap-10">
-                <img src="public/zdjecieprofil.jpg" className=" w-100 rounded-4xl profpic"></img>
+                <img src="zdjecieprofil.jpg" className=" w-100 rounded-4xl profpic"></img>
                 <div className="text-gray-300"> 
                     <p className="text-4xl text-gray-100 mb-5">Hey, I'm Max</p>
-                    <p className="text-3xl">I'm a student with a great passion for programming, tinkering and customizing. I love experimenting with diffrent languages and platforms, I've tried game development, mobile, web, desktop and embedded stuff trying out diffrent frameworks and languages exploring the world of software engineering.</p>
+                    <p className="text-3xl">I'm a student with a great passion for programming, robotics, tinkering and customizing (also sailing and piano). I love experimenting with diffrent languages and platforms even operating systems and robots, I've tried game development, mobile, web, bots, desktop and embedded stuff trying out diffrent frameworks and languages exploring the world of software engineering.</p>
                     <p className="text-3xl"></p>
                 </div>
                
