@@ -22,6 +22,21 @@ const MainContent = () => {
         <div>
 
             <div className='titlebox p-20 sm:p-40 lg:p-60 2xl:p-100  shadow-black '>
+                <div className="absolute top-0 left-0 flex gap-5 p-5 ">
+                    
+                <a href="https://github.com/greenslimestudios" target="_blank" className=" rounded-t-2xl flex items-center gap-4">
+                    {/* <p className="text-2xl font-bold text-black">github</p> */}
+                    <img src="githublogo.png" className="h-10 lg:h-15 "></img>
+                </a>
+                <a href="https://www.facebook.com/max.berlinski/" target="_blank" className="rounded-t-2xl flex items-center gap-4">
+                    {/* <p className="text-2xl font-bold text-black">github</p> */}
+                    <img src="facebook.png" className="h-10 lg:h-15 "></img>
+                </a>
+                 <a href="https://www.youtube.com/@maxberlinski" target="_blank" className="rounded-t-2xl flex items-center gap-4">
+                    {/* <p className="text-2xl font-bold text-black">github</p> */}
+                    <img src="youtube.png" className="h-10 lg:h-15 "></img>
+                </a>
+                </div>
                 {/* <img src='cat1.jpg' /> */}
                 <div className='flex-row items-start'>
                     <h1 className='font-bold text-5xl lg:text-6xl 2xl:text-7xl drop-shadow-lg'>Max Berliński</h1>
@@ -30,7 +45,17 @@ const MainContent = () => {
             </div>
             {/* <div className='mb-50' /> */}
 
-            <section className="lg:mx-40">
+            <section className="mx-0">
+
+            <div className="mt-20 px-10 flex items-center  center w-full gap-10">
+                <img src="public/zdjecieprofil.jpg" className=" w-100 rounded-4xl profpic"></img>
+                <div className="text-gray-300"> 
+                    <p className="text-4xl text-gray-100 mb-5">Hey, I'm Max</p>
+                    <p className="text-3xl">I'm a student with a great passion for programming, tinkering and customizing. I love experimenting with diffrent languages and platforms, I've tried game development, mobile, web, desktop and embedded stuff trying out diffrent frameworks and languages exploring the world of software engineering.</p>
+                    <p className="text-3xl"></p>
+                </div>
+               
+            </div>
 
 
             <div className="w-full my-20 mx-10">

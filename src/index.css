@@ -81,6 +81,12 @@ body{
 /* .gren{
   @apply hover:shadow-green-900;
 } */
+ .profpic{
+  @apply transition duration-300 ease-in-out;
+ }
+ .profpic:hover{
+  @apply ring-2 ring-white shadow-white translate-y-[-1rem];
+}
 
 .slide-in{
 
